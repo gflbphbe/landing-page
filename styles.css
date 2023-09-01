@@ -18,3 +18,46 @@ ul {
   margin: 8px;
   gap: 8px;
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  height: 416px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.top,
+.main {
+  margin: 0px 150px;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  font-family: sans-serif;
+}
+
+.links {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-family: sans-serif;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: thin;
+}
