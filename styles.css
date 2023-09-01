@@ -36,17 +36,20 @@ a {
   margin: 0px 150px;
 }
 
-.hero-main {
+.hero-text {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
   font-family: sans-serif;
+  width: fit-content;
 }
 
 .links {
   font-size: 18px;
   color: #e5e7eb;
   font-family: sans-serif;
+  display: flex;
+  align-self: center;
 }
 
 .logo {
@@ -60,4 +63,54 @@ a {
   font-size: 18px;
   color: #e5e7eb;
   font-weight: thin;
+}
+
+.top {
+  margin-top: 16px;
+}
+
+.main {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 3 1 auto;
+  margin-right: 20px;
+  width: fit-content;
+}
+
+.image {
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-end;
+}
+
+img {
+  width: 410px;
+  height: 100%;
+  border: 2px white solid;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 25px;
+  margin: 8px 0px;
+  background-color: #3882f6;
+}
+
+.button {
+  display: flex;
+  width: fit-content;
+  align-self: flex-start;
+  justify-content: center;
+}
+
+.button-text {
+  font-weight: bold;
 }
