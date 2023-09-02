@@ -79,14 +79,13 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
-  flex: 1;
-  margin-right: 20px;
-  width: fit-content;
+  align-items: flex-end;
+  flex-wrap: wrap-reverse;
+  flex: 1 1 200px;
   min-height: 100px;
   max-height: 250px;
-  min-width: 450px;
-  max-width: 600px;
+  margin-right: 20px;
+  width: fit-content;
 }
 
 .image {
@@ -114,7 +113,6 @@ button {
 .button {
   display: flex;
   width: fit-content;
-  align-self: flex-start;
   justify-content: center;
 }
 
@@ -124,5 +122,4 @@ button {
 
 .image-one img {
   width: 400px;
-}
 }
