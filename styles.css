@@ -16,7 +16,7 @@ ul {
   list-style-type: none;
   padding: 0px;
   margin: 8px;
-  gap: 8px;
+  gap: 50px;
 }
 
 .header {
@@ -162,6 +162,7 @@ button {
   height: 100%;
   object-fit: fill;
   border-radius: 10px;
+  border: 3px solid #3882f6;
 }
 
 .subtext-1 {
@@ -171,4 +172,30 @@ button {
   flex-wrap: wrap;
   width: 100%;
   margin-top: 3px;
+}
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.quote-container {
+  margin: 0px 300px;
+}
+
+.quote-container h2 span {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
+}
+
+.quote-container .kind-regards span {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
 }
