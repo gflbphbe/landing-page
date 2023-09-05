@@ -61,7 +61,7 @@ a {
 
 .subtext {
   font-size: 18px;
-  color: #e5e7eb;
+  color: lightgrey;
   font-weight: thin;
 }
 
@@ -127,6 +127,7 @@ button {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  height: 300px;
 }
 
 .header-2 {
@@ -161,4 +162,10 @@ button {
   height: 100%;
   object-fit: fill;
   border-radius: 10px;
+}
+
+.subtext-1 {
+  font-size: 18px;
+  color: grey;
+  font-weight: thin;
 }
