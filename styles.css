@@ -23,7 +23,7 @@ ul {
   display: flex;
   flex-direction: column;
   background-color: #1f2937;
-  height: 416px;
+  height: 600px;
 }
 
 a {
@@ -127,14 +127,13 @@ button {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 300px;
+  height: 450px;
 }
 
 .header-2 {
   display: flex;
   justify-content: center;
   width: fit-content;
-  margin: 0 auto;
   padding: 35px;
 }
 
@@ -145,16 +144,17 @@ button {
 
 .image-container {
   display: flex;
-  width: 70%;
-  height: 200px;
+  flex-direction: row;
+  width: 100%;
   gap: 48px;
   justify-content: center;
+  flex-grow: 1;
 }
 
 .image-one {
   flex: 1 1 auto;
   max-width: 200px;
-  max-height: 300px;
+  max-height: 200px;
 }
 
 .image-one img {
@@ -168,4 +168,7 @@ button {
   font-size: 16px;
   color: grey;
   font-weight: thin;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 3px;
 }
