@@ -185,6 +185,8 @@ button {
 
 .quote-container {
   margin: 0px 300px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .quote-container h2 span {
