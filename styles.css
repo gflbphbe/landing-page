@@ -201,3 +201,51 @@ button {
   justify-content: flex-end;
   margin-right: 10px;
 }
+
+.call-to-action-container {
+  display: flex;
+  color: white;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+}
+
+.call-to-action {
+  display: flex;
+  background-color: #3882f6;
+  margin: 50px 275px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.call-text span {
+  color: grey;
+}
+
+.call-button {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+
+.call-button button {
+  border-radius: 5px;
+  width: 100px;
+  padding: 5px;
+  border: 2px white solid;
+}
+
+.call-text span,
+.call-text h3 {
+  color: #f9faf8;
+  font-family: sans-serif;
+}
+
+.call-text h3 {
+  font-size: 15px;
+}
+
+.call-text span {
+  font-size: 10px;
+}
