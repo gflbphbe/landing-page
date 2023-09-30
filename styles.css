@@ -249,3 +249,21 @@ button {
 .call-text span {
   font-size: 10px;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  height: 100px;
+}
+
+.copyright {
+  display: flex;
+}
+
+.copyright span {
+  color: #e5e7eb;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
